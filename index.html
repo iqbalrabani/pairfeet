@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pair-Fit | Get Fit Today!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- scroll to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <iconify-icon icon="dashicons:arrow-up-alt2" style="color: white;" width="32"></iconify-icon>
+    </button>
+    <!-- scroll to top -->
+
+    <!-- start of jumbotron -->
+    <nav class="sticky">
+        <h2>PAIRFIT</h2>
+        <ul>
+            <li><a href="#" class="underline">HOME</a></li>
+            <li><a href="#about" class="underline">ABOUT</a></li>
+            <li><a href="#features" class="underline">FEATURES</a></li>
+            <li><a href="#contact" class="underline">HELP</a></li>
+            <li><a href="#contact" class="underline">CONTACT</a></li>
+        </ul>
+        <div class="btn"><a href="Login/login.html">LOG IN</a></div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container1">
+            <h1>WELCOME TO PAIRFIT</h1>
+            <h2>GET FIT TOGETHER</h2>
+            <hr>
+            <a class="btn" href="#about">Get Started!</a>
+        </div>
+    </div>
+    <!-- end of jumbotron -->
+
+
+    <!-- start of about -->
+    <div id="about" class="container2">
+        <br><br>
+        <div class="about-bar">
+            <h2>ABOUT US</h2>
+            <hr>
+        </div>
+        <div class="image-bar">
+            <img src="/images/profile.png" alt="">
+            <p>Gain healthy lifestyle with the prefect people that you needed, arrange training schedule together with
+                those who have the same vision.
+                <br><br>
+                Having trouble finding a workout schedule? Find your best-favourite gym that can help your workout
+                routine and tells you available spot to avoid crowded places.
+            </p>
+            <span></span>
+        </div>
+        <br><br><br>
+    </div>
+    <!-- end of about -->
+
+    <!-- start of statistics -->
+    <div class="container3">
+        <span></span>
+        <div class="statistics">
+            <span></span>
+            <div class="top-bar">
+                <h3>67+</h3>
+                <p>Certified Trainers</p>
+            </div>
+            <hr>
+            <div class="top-bar">
+                <h3>183+</h3>
+                <p>Gym Partnerships</p>
+            </div>
+            <hr>
+            <div class="top-bar">
+                <h3>291+</h3>
+                <p>Active Users</p>
+            </div>
+            <span></span>
+        </div>
+        <span></span>
+    </div>
+    <!-- end of statistics -->
+
+    <!-- start of features -->
+    <div id="features" class="container4">
+        <span></span>
+        <h2>OUR SERVICES</h2>
+    </div>
+
+    <div class="container5">
+        <div class="feature-group">
+            <span></span>
+            <div class="feature-bar">
+                <h2>FIND PEOPLE</h2>
+                <br>
+                <p>You'll look at graphs and charts in Task One, how to approach the task and
+                    the language needed for a successful answer.</p>
+                <br><br>
+                <a href="FIND PEOPLE/index.html" class="btn">LAUNCH</a>
+            </div>
+            <span></span>
+            <div class="feature-bar">
+                <h2>GYM NEARBY</h2>
+                <br>
+                <p>Find your nearest best gym that can help your workout routine and tells you available spot to avoid
+                    crowded places.</p>
+                <br><br>
+                <a href="GYM NEAR/index.html" class="btn">LAUNCH</a>
+            </div>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="separator"></div>
+    <!-- end of features -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+    <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
+
+<footer>
+    <!-- start of contact -->
+    <div id="contact" class="footer-group">
+        <span></span>
+        <div class="fb1">
+            <h3>CONTACT US</h3>
+            <br>
+            <p><iconify-icon icon="ic:baseline-phone" style="color: white;" width="20"></iconify-icon>&ensp;<a
+                    href="#">+6287853944334</a></p>
+            <p><iconify-icon icon="lucide:mail" style="color: white;" width="20"></iconify-icon>&ensp;<a
+                    href="#">peerfit-gym@gmail.com</a></p>
+            <p><iconify-icon icon="mdi:instagram" style="color: white;" width="20"></iconify-icon>&ensp;<a
+                    href="#">@peerfit_gym</a></p>
+        </div>
+
+        <div class="fb2">
+            <h3>MENU</h3>
+            <br>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Help</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <br>
+        </div>
+        <div class="fb3">
+            <h3>FEATURES</h3>
+            <br>
+            <ul>
+                <li><a href="Login/login.html">Login</a></li>
+                <li><a href="">Find Partner</a></li>
+                <li><a href="">Find Trainer</a></li>
+                <li><a href="">Gym Nearby</a></li>
+            </ul>
+            <br>
+        </div>
+        <div class="fb4">
+            <h3>ADDRESS</h3><br>
+            <p>5th flora, 700/D kings road, green lane New York-1782</p>
+            <a href=""><iconify-icon icon="material-symbols:location-on" style="color: white;"
+                    width="20"></iconify-icon>&ensp;Click Here!</a>
+            <br>
+        </div>
+        <span></span>
+    </div>
+
+    <div class="black">
+        <p>Copyright &copy; 2022 | Made with <span>&hearts;</span> by Kelompok 2</p>
+    </div>
+    <!-- end of contact -->
+</footer>
+
+</html>
