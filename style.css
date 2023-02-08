@@ -48,7 +48,9 @@
 
 /* start of jumbotron */
 .jumbotron {
-    background-image: url(/images/hero.png);
+    background-image: url(images/hero.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     height: 100vh;
     padding-top: 10px;
     margin-top: 96px;
@@ -62,7 +64,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 100px;
+    padding: 26px 100px;
     background-color: rgb(0, 0, 0);
 }
 
@@ -230,7 +232,7 @@ nav ul {
 /* start of statistics */
 .container3 {
     height: 50vh;
-    background-image: url(/images/statistics.png);
+    background-image: url(images/statistics.png);
     background-attachment: fixed;
     /* background-position: 0 1250px; */
     background-repeat: no-repeat;
@@ -328,7 +330,7 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(/images/contact.png);
+    background-image: url(images/contact.png);
     background-attachment: fixed;
     background-position: 100% 100%;
 }
